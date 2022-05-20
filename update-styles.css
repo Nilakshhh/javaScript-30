@@ -1,0 +1,28 @@
+:root{
+    --blur: 10px;
+    --spacing: 10px;
+    --color: #ffc600;
+}
+
+img{
+    padding: var(--spacing);
+    background-color: var(--color);
+    filter: blur(var(--blur));
+}
+.JS{
+    color: var(--color);
+}
+
+body{
+    text-align: center;
+}
+.controls{
+    margin: 20px 0 20px 0;
+}
+label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+h2{
+    font-size: 50px;
+}
